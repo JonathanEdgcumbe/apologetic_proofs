@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sharedLayout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/blockQuoteTextView"
+        style="@style/TextDescriptions"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:text="Text">
+    </TextView>
+
+</LinearLayout>

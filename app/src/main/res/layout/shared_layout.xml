@@ -12,31 +12,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+    <LinearLayout
+        android:id="@+id/sharedLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
         <TextView
             style="@style/Headings"
+            android:visibility="gone"
             android:layout_marginTop="2sp"
-            android:text="Description">
+            >
         </TextView>
 
         <TextView
             android:id="@+id/headingTextView"
+            android:visibility="gone"
             style="@style/TextDescriptions">
         </TextView>
 
         <TextView
             style="@style/Headings"
-            android:text="References">
+            android:visibility="gone"
+            >
         </TextView>
 
         <TextView
             android:id="@+id/referenceTextView"
+            android:visibility="gone"
             style="@style/TextDescriptions">
         </TextView>
 
-        <Button
-            android:text="Back"
-            style="@style/MainBtn"
-            android:id="@+id/BackButton"/>
 
     </LinearLayout>
+
+    <Button
+        android:text="Back"
+        style="@style/MainBtn"
+        android:id="@+id/BackButton"/>
+    </LinearLayout>
+
 </ScrollView>
