@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:layout_marginLeft="5sp"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Cosmological Argument"
+            android:id="@+id/CosmologicalArgumentBtn"/>
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Fine-Tuning Argument"
+            android:id="@+id/FineTuningBtn"/>
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Consciousness Argument"
+            android:id="@+id/ConsciousnessBtn"/>
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Jesus' Resurrection"
+            android:id="@+id/ResurrectionBtn"/>
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Back"
+            android:id="@+id/BackButton"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:layout_marginStart="5sp"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Headings"
+            android:layout_marginTop="2sp"
+            android:text="Description">
+        </TextView>
+
+        <TextView
+            android:id="@+id/headingTextView"
+            style="@style/TextDescriptions">
+        </TextView>
+
+        <TextView
+            style="@style/Headings"
+            android:text="References">
+        </TextView>
+
+        <TextView
+            android:id="@+id/referenceTextView"
+            style="@style/TextDescriptions">
+        </TextView>
+
+        <Button
+            android:text="Back"
+            style="@style/MainBtn"
+            android:id="@+id/BackButton"/>
+
+    </LinearLayout>
+</ScrollView>

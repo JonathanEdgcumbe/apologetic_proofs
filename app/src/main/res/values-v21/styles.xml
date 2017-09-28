@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/buttons</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorSecondary">@color/writing</item>
+        <item name="android:textColorPrimary">@color/writing</item>
+        <item name="android:textColorSecondaryInverse">@android:color/holo_orange_dark</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimaryInverse">@color/buttons</item>
+        <item name="android:statusBarColor">@color/buttons</item>
+        <item name="android:navigationBarColor">@color/buttons</item>
+        <item name="android:colorForeground">@color/writing</item>
+    </style>
+</resources>
