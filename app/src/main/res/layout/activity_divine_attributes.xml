@@ -14,26 +14,6 @@
 
         <Button
             style="@style/MainBtn"
-            android:text="Omnipotence (All-powerful)"
-            android:id="@+id/OmnipotenceBtn"/>
-
-        <Button
-            style="@style/MainBtn"
-            android:text="Omniscience (All-knowing)"
-            android:id="@+id/OmniscienceBtn"/>
-
-        <Button
-            style="@style/MainBtn"
-            android:text="Omnibenevolence (All-good)"
-            android:id="@+id/OmnibenevolenceBtn"/>
-
-        <Button
-            style="@style/MainBtn"
-            android:text="Omnipresence (All-present)"
-            android:id="@+id/OmnipresenceBtn"/>
-
-        <Button
-            style="@style/MainBtn"
             android:text="Personal"
             android:id="@+id/PersonalBtn"/>
 
@@ -46,6 +26,26 @@
             style="@style/MainBtn"
             android:text="Eternal"
             android:id="@+id/EternalBtn"/>
+        <Button
+            style="@style/MainBtn"
+            android:text="Omnipotence (All-powerful)"
+            android:id="@+id/OmnipotenceBtn"/>
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Omniscience (All-knowing)"
+            android:id="@+id/OmniscienceBtn"/>
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Omnipresence (All-present)"
+            android:id="@+id/OmnipresenceBtn"/>
+
+        <Button
+            style="@style/MainBtn"
+            android:text="Omnibenevolence (All-good)"
+            android:id="@+id/OmnibenevolenceBtn"/>
+
         <Button
             style="@style/MainBtn"
             android:text="Back"
