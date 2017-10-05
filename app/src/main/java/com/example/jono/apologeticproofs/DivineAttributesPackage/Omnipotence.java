@@ -15,8 +15,8 @@ public class Omnipotence extends BaseActivity {
                 "meaning “powerful.” Thus, to be omnipotent means to be all-powerful.<br>" +
                 "<br>" +
                 "Now, Scripture clearly ascribes this all-powerful attribute to God by calling " +
-                "Him <i>Almighty</i>. Furthermore, God’s almighty power is demon strated in His" +
-                " creation of the world.  At the moment of creation, God created the universe " +
+                "Him <i>Almighty</i><font color='#289CD5'>[1]</font>. Furthermore, God’s almighty power is demonstrated in His" +
+                " creation of the world<font color='#289CD5'>[2]</font>.  At the moment of creation, God created the universe " +
                 "out of nothing; there was no material substance that God simply reshaped into " +
                 "the universe, rather, God brought the universe (or all space-time, matter, and " +
                 "energy) into existence out of nothing. But to create a universe out of nothing " +
@@ -24,7 +24,7 @@ public class Omnipotence extends BaseActivity {
                 "power. Indeed, it seems difficult to conceive of a greater act of power than " +
                 "this.<br>" +
                 "<br>" +
-                "But Scripture also teaches that God <i>can do all things</i>. In Matthew 19:26," +
+                "But Scripture also teaches that God <i>can do all things</i><font color='#289CD5'>[3]</font>. In Matthew 19:26," +
                 " for example, Jesus remarks to his disciples: “with God all things are possible.”" +
                 " Therefore, according to Scripture, God is all-powerful.<br>" +
                 "<br>" +
@@ -65,8 +65,8 @@ public class Omnipotence extends BaseActivity {
                 "<br>" +
                 "In response to this paradox, however, you may simply answer,");
         addBlockQuote("An omnipotent God can move any physical object and, thus, He cannot" +
-                " make a stone too \theavy for Him to move, since this is logically impossible." +
-                " However, not being able to do the \tlogical impossible in no way diminishes " +
+                " make a stone too heavy for Him to move, since this is logically impossible." +
+                " However, not being able to do the logical impossible in no way diminishes " +
                 "God’s omnipotence.<br>");
         addNormalText("Secondly, understanding the definition of omnipotence helps you " +
                 "respond to the problem of moral evil. According to this problem, an " +
@@ -81,7 +81,36 @@ public class Omnipotence extends BaseActivity {
                 "freewill (as opposed to forcing people to do things), God is perfectly good " +
                 "and powerful, regardless of the moral evil we find in the world.");
         addHeading("References");
-        addNormalText("");
+        addNormalText("<h5><font color='#289CD5'>[1]</font> Genesis 17:1</h5>" +
+                "1 When Abram was ninety-nine years old the Lord appeared to Abram and said to him," +
+                " “I am God Almighty; walk before me, and be blameless,<br>" +
+                "<br>" +
+                "<h5>Revelation 19:6</h5>" +
+                "6 Then I heard what seemed to be the voice of a great multitude, like the roar of" +
+                " many waters and like the sound of mighty peals of thunder, crying out, " +
+                "“Hallelujah! For the Lord our God the Almighty reigns.<br>" +
+                "<br>" +
+                "<h5><font color='#289CD5'>[2]</font> Genesis 1:1</h5>" +
+                "1 In the beginning, God created the heavens and the earth.<br>" +
+                "<h5>Psalms 33:9</h5>" +
+                "9 For he spoke, and it came to be; he commanded, and it stood firm.<br>" +
+                "<h5>Romans 4:17</h5>" +
+                "17 as it is written,“I have made you the father of many nations” — in the presence " +
+                "of the God in whom he believed, who gives life to the dead and calls into" +
+                " existence the things that do not exist.<br>" +
+                "<br>" +
+                "<h5><font color='#289CD5'>[3]</font> Genesis 18:14</h5>" +
+                "14 Is anything too hard for the Lord? At the appointed time I will return to you, " +
+                "about this time next year, and Sarah shall have a son.”<br>" +
+                "<h5>Jeremiah 32:17</h5>" +
+                "17 ‘Ah, Lord God! It is you who have made the heavens and the earth by your great " +
+                "power and by your outstretched arm! Nothing is too hard for you.<br>" +
+                "<h5>Job 42:1-2</h5>" +
+                "1 Then Job answered the Lord and said: “I know that you can do all things, and " +
+                "that no purpose of yours can be thwarted.<br>" +
+                "<h5>Mark 14:36</h5>" +
+                "36 And he said, “Abba, Father, all things are possible for you. Remove this cup " +
+                "from me. Yet not what I will, but what you will.”");
     }
 }
 

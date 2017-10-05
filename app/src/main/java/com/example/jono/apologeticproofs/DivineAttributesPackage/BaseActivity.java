@@ -1,5 +1,6 @@
 package com.example.jono.apologeticproofs.DivineAttributesPackage;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
@@ -50,5 +51,11 @@ public class BaseActivity extends AppCompatActivity {
         TextView textView = (TextView) linearLayout.findViewById(R.id.blockQuoteTextView);
         textView.setId(View.generateViewId());
         textView.setText(Html.fromHtml(text));
+    }
+
+    public void addHorizontalRule() {
+        LinearLayout linearLayout = (LinearLayout) getLayoutInflater().inflate(R.layout.horizontal_rule_layout, sharedLayout);
+        View view = linearLayout.findViewById(R.id.horizontalRuleLayout);
+        view.setId(View.generateViewId());
     }
 }

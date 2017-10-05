@@ -20,16 +20,18 @@
         <Button
             style="@style/MainBtn"
             android:text="Fine-Tuning Argument"
+            android:visibility="gone"
             android:id="@+id/FineTuningBtn"/>
 
         <Button
             style="@style/MainBtn"
+            android:visibility="gone"
             android:text="Consciousness Argument"
             android:id="@+id/ConsciousnessBtn"/>
 
         <Button
             style="@style/MainBtn"
-            android:text="Jesus' Resurrection"
+            android:text="Resurrection Argument"
             android:id="@+id/ResurrectionBtn"/>
 
         <Button

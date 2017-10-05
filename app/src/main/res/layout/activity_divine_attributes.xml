@@ -12,6 +12,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            style="@style/Headings"
+            android:text="God is:"/>
+
         <Button
             style="@style/MainBtn"
             android:text="Personal"
@@ -28,22 +32,22 @@
             android:id="@+id/EternalBtn"/>
         <Button
             style="@style/MainBtn"
-            android:text="Omnipotence (All-powerful)"
+            android:text="All-powerful"
             android:id="@+id/OmnipotenceBtn"/>
 
         <Button
             style="@style/MainBtn"
-            android:text="Omniscience (All-knowing)"
+            android:text="All-knowing"
             android:id="@+id/OmniscienceBtn"/>
 
         <Button
             style="@style/MainBtn"
-            android:text="Omnipresence (All-present)"
+            android:text="All-present"
             android:id="@+id/OmnipresenceBtn"/>
 
         <Button
             style="@style/MainBtn"
-            android:text="Omnibenevolence (All-good)"
+            android:text="All-good"
             android:id="@+id/OmnibenevolenceBtn"/>
 
         <Button
