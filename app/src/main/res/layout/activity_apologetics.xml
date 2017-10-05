@@ -9,27 +9,24 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <Button
             style="@style/MainBtn"
-            android:text="Apologetics"
-            android:id="@+id/ApologeticsBtn"/>
+            android:text="What is Apologetics"
+            android:id="@+id/WhatIsApologeticsBtn"/>
 
         <Button
             style="@style/MainBtn"
-            android:text="Divine Attributes"
-            android:id="@+id/DivineAttributesBtn"/>
+            android:text="Why Study Apologetics?"
+            android:id="@+id/WhyStudyApologeticsBtn"/>
 
         <Button
             style="@style/MainBtn"
-            android:text="Proofs for God's Existence"
-            android:id="@+id/ArgumentsBtn"/>
+            android:text="Back"
+            android:id="@+id/BackButton"/>
 
-        <Button
-            style="@style/MainBtn"
-            android:text="Objections to God's Existence"
-            android:id="@+id/ObjectionsBtn"/>
-        </LinearLayout>
+    </LinearLayout>
 </ScrollView>
+

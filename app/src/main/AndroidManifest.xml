@@ -30,7 +30,10 @@
         <activity android:name=".ProofsForExistence.ConsciousnessArgument" />
         <activity android:name=".ProofsForExistence.ResurrectionArgument" />
         <activity android:name=".ObjectionsToExistence.ObjectionsForGodsExistence" />
-        <activity android:name=".ObjectionsToExistence.ProblemOfEvil"></activity>
+        <activity android:name=".ObjectionsToExistence.ProblemOfEvil" />
+        <activity android:name=".Apologetics.Apologetics" />
+        <activity android:name=".Apologetics.WhatIsApologetics" />
+        <activity android:name=".Apologetics.WhyStudyApologetics"></activity>
     </application>
 
 </manifest>

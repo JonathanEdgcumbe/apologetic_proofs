@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.jono.apologeticproofs.Apologetics.Apologetics;
 import com.example.jono.apologeticproofs.DivineAttributesPackage.DivineAttributes;
 import com.example.jono.apologeticproofs.ObjectionsToExistence.ObjectionsForGodsExistence;
 import com.example.jono.apologeticproofs.ProofsForExistence.ArgumentsForGodsExistence;
@@ -19,8 +20,19 @@ public class MainActivity extends AppCompatActivity {
         setupDivineAttributesBtn();
         setupArgumentsBtn();
         setupObjectionsBtn();
+        setupApologeticsBtn();
     }
 
+    private void setupApologeticsBtn() {
+        Button button = (Button) findViewById(R.id.ApologeticsBtn);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Apologetics.class);
+                startActivity(intent);
+            }
+        });
+    }
     private void setupDivineAttributesBtn() {
         Button button = (Button) findViewById(R.id.DivineAttributesBtn);
         button.setOnClickListener(new View.OnClickListener() {
