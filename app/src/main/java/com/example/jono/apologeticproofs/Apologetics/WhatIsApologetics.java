@@ -11,7 +11,7 @@ public class WhatIsApologetics extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("What is Apologetics?");
-        addHeading("Description");
+        addHeading("What is apologetics?");
         addNormalText("The word “apologetics” originates from the Greek word <i>apologia</i>, " +
                 "which literally means to make a formal defence of one’s belief. The noun " +
                 "<i>apologia</i> and its verb <i>apologeomai</i> are used several times in " +

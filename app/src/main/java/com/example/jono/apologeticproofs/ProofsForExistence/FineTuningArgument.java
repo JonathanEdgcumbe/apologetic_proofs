@@ -10,7 +10,7 @@ public class FineTuningArgument extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Personal");
+        setTitle("Fine Tuning Argument");
         addHeading("Description");
         addNormalText("");
         addBlockQuote("");

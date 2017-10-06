@@ -10,7 +10,7 @@ public class ProblemOfEvil extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Personal");
+        setTitle("Problem of Evil");
         addHeading("Description");
         addNormalText("");
         addBlockQuote("");

@@ -10,7 +10,7 @@ public class ResurrectionArgument extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Personal");
+        setTitle("Resurrection Argument");
         addHeading("Description");
         addNormalText("");
         addBlockQuote("");

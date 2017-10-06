@@ -11,7 +11,7 @@ public class ConsciousnessArgument extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Personal");
+        setTitle("Consciousness Argument");
         addHeading("Description");
         addNormalText("");
         addBlockQuote("");
